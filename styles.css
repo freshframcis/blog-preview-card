@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Figtree, sans-serif, serif;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  display: flex;
+  flex-direction: column;
+}
+
+.outter-container {
+  width: 30%;
+  background-color: white;
+  margin: 70px auto 10px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px hsl(0, 0%, 7%);
+}
+.design-container {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.design-container img {
+  width: 100%;
+  border-radius: 6px;
+}
+.middle-container {
+  display: flex;
+  flex-direction: column;
+}
+.middle-container p {
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.learning-div {
+  background-color: hsl(47, 88%, 63%);
+  width: 85px;
+  height: 32px;
+  font-weight: 900;
+  padding-top: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.word-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  color: hsl(0, 0%, 50%);
+  font-weight: 500;
+}
+.word-container h2 {
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 7%);
+}
+.word-container h2:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+}
+.image-container p {
+  margin-left: 8px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 414px) {
+  .outter-container {
+    width: 95%;
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+  }
+}
